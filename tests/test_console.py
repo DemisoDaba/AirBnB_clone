@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Defines unittests for console.py.
+
 Unittest classes:
     TestHBNBCommand_prompting
     TestHBNBCommand_help
@@ -10,15 +11,14 @@ Unittest classes:
     TestHBNBCommand_destroy
     TestHBNBCommand_update
 """
-from console import HBNBCommand
-from models.engine.file_storage import FileStorage
-import unittest
-import datetime
-from unittest.mock import patch
-import sys
-from io import StringIO
-import re
 import os
+import sys
+import unittest
+from models import storage
+from models.engine.file_storage import FileStorage
+from console import HBNBCommand
+from io import StringIO
+from unittest.mock import patch
 
 
 class TestHBNBCommand_prompting(unittest.TestCase):
