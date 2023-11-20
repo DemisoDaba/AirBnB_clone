@@ -147,6 +147,4 @@ Usage	<class name>.count()
 
 AUTHURS
 
-Ako Atem Sampson
-
-Daniel Ogundeyi
+Demiso Daba
